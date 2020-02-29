@@ -22,7 +22,6 @@ fn find_nth_odd(n: u64) -> u64 {
     i
 }
 
-#[inline(never)]
 fn is_odd(n: u64) -> bool {
     n % 2 == 1
 }
